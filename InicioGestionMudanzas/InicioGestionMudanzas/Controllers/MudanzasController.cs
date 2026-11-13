@@ -122,7 +122,7 @@ namespace InicioGestionMudanzas.Controllers
             return NoContent();
         }
 
-        // Comprueba que los datos y las referencias de la mudanza sean correctos.
+        // Comprueba que los datos de la mudanza sean correctos.
         private static string? ValidarMudanza(Mudanza mudanza)
         {
             if (mudanza == null)
