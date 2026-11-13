@@ -65,5 +65,7 @@ namespace InicioGestionMudanzas.Data
                 Cargo = "Ayudante"
             }
         };
+
+        public static List<Mudanza> Mudanzas { get; set; } = new List<Mudanza>();
     }
 }
